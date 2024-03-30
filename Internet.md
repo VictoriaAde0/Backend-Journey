@@ -1,0 +1,10 @@
+Packet is a small unit of data that is transmitted over the internet.
+Router is a device that directs packets of data between different networks.
+A network is a group of computers or other devices which are connected to eachother.
+The core of the internet is a global network of interconnected routers, which are responsible for directing traffic between different devices and systems. When you send data over the internet, it is broken up into small packets that are sent from your device to a router. The router examines the packet and forwards it to the next router in the path towards its destination. This process continues until the packet reaches its final destination.
+Internet Protocols, IP is responsible for routing packets of data to their correct destination, while TCP and UDP ensure that packets are transmitted reliably and efficiently. DNS is used to translate domain names into IP addresses, and HTTP is used to transfer data between clients and servers.
+An IP address is a unique identifier assigned to each device on a network. It’s used to route data to the correct destination, ensuring that information is sent to the intended recipient.
+Domain names, are human-readable names used to identify websites and other internet resources.
+DNS, Domain Name System is responsible for translating domain names into IP addresses.
+HTTP (The Hypertext Transfer Protocol)is the protocol used to transfer data between a client (such as a web browser) and a server (such as a website)        HTTPS is a more secure version of HTTP, which encrypts the data being transmitted between the client and server using SSL/TLS (Secure Sockets Layer/Transport Layer Security) encryption.
+SSL/TLS: The Secure Sockets Layer and Transport Layer Security protocols are used to provide secure communication over the internet.
