@@ -27,3 +27,7 @@ For Arithmetic operators, there is something called precedence for the operators
 Java has an inbuilt class called system and it comes with the "out" object that is static. The most famous print method is print and print ln. 
 The difference between both terms is the "ln" which prints and then moves the cursor to the next line.
 The print methods can be used for different data types. We also practised printing strings and the use of operators with them.
+
+##Polymorphism: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables flexibility and extensibility in code by allowing methods to behave differently based on the object they are called on.>
+
+
