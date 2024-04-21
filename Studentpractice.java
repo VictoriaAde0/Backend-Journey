@@ -1,4 +1,5 @@
-
+package Studentpractice;
+import java.util.Scanner;
 public class Studentpractice {
     public static void main(String[] args) {
 
@@ -79,6 +80,35 @@ public class Studentpractice {
                     C=new int[5][5];
                 }
             }
+        }
+    public class ArithmeticOperations{
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter first number: ");
+            double number1 = scanner.nextDouble();
+            System.out.print("Enter next number: ");
+            double number2 = scanner.nextDouble();
+            scanner.close();
+            System.out.println("Addition result: " + addition(number1, number2));
+            System.out.println("Subtraction result: " + subtraction(number1, number2));
+            System.out.println("Multiplication result: " + multiplication(number1, number2));
+            System.out.println("Division result: " + division(number1, number2));
+        }
+        public static double Addition(double A, double B) {
+        return A + B;
+        }
+        public static double Subtraction(double A, double B) {
+        return A - B;
+        }
+        public static double Multiplication(double A, double B) {
+        return A * B;
+        }
+        public static double Division(double A, double B) {
+        if (B == 0) {
+            System.out.println("Number can't be divided by zero");
+            return Double.Nil
+        }
+        return A / B;
         }
 }
 
